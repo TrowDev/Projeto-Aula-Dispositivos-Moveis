@@ -12,7 +12,7 @@ fun main() {
     val renatoProfessor = Professor("Renato", "12345678900");
     renatoProfessor.aprenderConteudoDeNovosCursos();
     renatoProfessor.gravarAulasParaCurso();
-    println(renatoAluno.toString());
+    println(renatoProfessor.toString());
 }
 
 open class Pessoa(
